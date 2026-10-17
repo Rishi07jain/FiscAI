@@ -1,0 +1,329 @@
+{
+  "id": "IN-TY2025-26-NEW",
+  "regime": "new",
+  "effectiveFrom": "2025-04-01",
+  "act": "ITA-1961",
+  "taxYear": "2025-26",
+  "currency": "INR",
+  "units": "paise",
+  "cess": 0.04,
+  "rounding": {
+    "totalIncomeTo": 1000,
+    "taxTo": 1000
+  },
+  "specialRates": {
+    "equitySTCG": {
+      "rate": 0.2,
+      "ruleId": "CG-EQ-STCG"
+    },
+    "equityLTCG": {
+      "rate": 0.125,
+      "exemption": 12500000,
+      "ruleId": "CG-EQ-LTCG"
+    },
+    "otherLTCG": {
+      "rate": 0.125,
+      "ruleId": "CG-OTHER-LTCG"
+    },
+    "propertyGrandfather": {
+      "cutoffDate": "2024-07-23",
+      "indexedRate": 0.2,
+      "ruleId": "CG-PROP-INDEX"
+    },
+    "vda": {
+      "rate": 0.3,
+      "lossSetOff": false,
+      "tdsRate": 0.01,
+      "ruleId": "VDA-30"
+    },
+    "specialSurchargeCap": 0.15,
+    "promoterBuyback": {
+      "rate": 0.3,
+      "ruleId": "CG-BUYBACK"
+    }
+  },
+  "holdingPeriods": {
+    "listed_equity": 12,
+    "equity_mf": 12,
+    "sgb": 12,
+    "listed_bond": 12,
+    "buyback": 12,
+    "property": 24,
+    "land": 24,
+    "unlisted_shares": 24,
+    "gold": 24,
+    "other": 24,
+    "debt_mf": null,
+    "vda": null
+  },
+  "cii": {
+    "2001-02": 100,
+    "2002-03": 105,
+    "2003-04": 109,
+    "2004-05": 113,
+    "2005-06": 117,
+    "2006-07": 122,
+    "2007-08": 129,
+    "2008-09": 137,
+    "2009-10": 148,
+    "2010-11": 167,
+    "2011-12": 184,
+    "2012-13": 200,
+    "2013-14": 220,
+    "2014-15": 240,
+    "2015-16": 254,
+    "2016-17": 264,
+    "2017-18": 272,
+    "2018-19": 280,
+    "2019-20": 289,
+    "2020-21": 301,
+    "2021-22": 317,
+    "2022-23": 331,
+    "2023-24": 348,
+    "2024-25": 363,
+    "2025-26": 376
+  },
+  "capitalGainsExemptions": {
+    "sec54": {
+      "cap": 10000000000,
+      "ruleId": "CG-54"
+    },
+    "sec54F": {
+      "cap": 10000000000,
+      "ruleId": "CG-54F"
+    },
+    "sec54EC": {
+      "cap": 500000000,
+      "windowMonths": 6,
+      "ruleId": "CG-54EC"
+    }
+  },
+  "lossCarryForwardYears": {
+    "capital": 8,
+    "business": 8,
+    "speculative": 4,
+    "houseProperty": 8
+  },
+  "advanceTax": {
+    "threshold": 1000000,
+    "interestRatePerMonth": 0.01,
+    "instalments": [
+      {
+        "due": "06-15",
+        "cumulativePct": 0.15
+      },
+      {
+        "due": "09-15",
+        "cumulativePct": 0.45
+      },
+      {
+        "due": "12-15",
+        "cumulativePct": 0.75
+      },
+      {
+        "due": "03-15",
+        "cumulativePct": 1
+      }
+    ],
+    "ruleIds": {
+      "b": "ADV-234B",
+      "c": "ADV-234C"
+    }
+  },
+  "returnDueDates": {
+    "ITR-1": "07-31",
+    "ITR-2": "07-31",
+    "ITR-3": "08-31",
+    "ITR-4": "08-31",
+    "audit": "10-31",
+    "revised": "03-31"
+  },
+  "fno": {
+    "sttOld": {
+      "futures": 0.0002,
+      "optionsPremium": 0.001,
+      "optionsExercise": 0.00125
+    },
+    "sttNew": {
+      "futures": 0.0005,
+      "optionsPremium": 0.0015,
+      "optionsExercise": 0.0015
+    },
+    "auditTurnover": 10000000000,
+    "effectiveFrom": "2026-04-01"
+  },
+  "hra": {
+    "metroPct": 0.5,
+    "nonMetroPct": 0.4,
+    "rentExcessPct": 0.1,
+    "metros": [
+      "mumbai",
+      "delhi",
+      "kolkata",
+      "chennai"
+    ]
+  },
+  "sources": [
+    {
+      "title": "CAclubindia – New regime slabs FY 2026-27",
+      "url": "https://www.caclubindia.com"
+    },
+    {
+      "title": "ClearTax – Budget 2026 highlights",
+      "url": "https://cleartax.in"
+    },
+    {
+      "title": "Income Tax Department – Capital gains exemptions",
+      "url": "https://www.incometax.gov.in"
+    }
+  ],
+  "slabs": {
+    "below60": [
+      {
+        "upTo": 40000000,
+        "rate": 0
+      },
+      {
+        "upTo": 80000000,
+        "rate": 0.05
+      },
+      {
+        "upTo": 120000000,
+        "rate": 0.1
+      },
+      {
+        "upTo": 160000000,
+        "rate": 0.15
+      },
+      {
+        "upTo": 200000000,
+        "rate": 0.2
+      },
+      {
+        "upTo": 240000000,
+        "rate": 0.25
+      },
+      {
+        "upTo": null,
+        "rate": 0.3
+      }
+    ],
+    "60to79": [
+      {
+        "upTo": 40000000,
+        "rate": 0
+      },
+      {
+        "upTo": 80000000,
+        "rate": 0.05
+      },
+      {
+        "upTo": 120000000,
+        "rate": 0.1
+      },
+      {
+        "upTo": 160000000,
+        "rate": 0.15
+      },
+      {
+        "upTo": 200000000,
+        "rate": 0.2
+      },
+      {
+        "upTo": 240000000,
+        "rate": 0.25
+      },
+      {
+        "upTo": null,
+        "rate": 0.3
+      }
+    ],
+    "80plus": [
+      {
+        "upTo": 40000000,
+        "rate": 0
+      },
+      {
+        "upTo": 80000000,
+        "rate": 0.05
+      },
+      {
+        "upTo": 120000000,
+        "rate": 0.1
+      },
+      {
+        "upTo": 160000000,
+        "rate": 0.15
+      },
+      {
+        "upTo": 200000000,
+        "rate": 0.2
+      },
+      {
+        "upTo": 240000000,
+        "rate": 0.25
+      },
+      {
+        "upTo": null,
+        "rate": 0.3
+      }
+    ]
+  },
+  "standardDeduction": 7500000,
+  "rebate": {
+    "maxIncome": 120000000,
+    "maxRebate": 6000000,
+    "marginalRelief": true,
+    "residentOnly": true,
+    "excludes": [
+      "equitySTCG",
+      "equityLTCG",
+      "otherLTCG",
+      "vda"
+    ],
+    "ruleId": "REBATE-87A"
+  },
+  "surcharge": [
+    {
+      "above": 500000000,
+      "rate": 0.1
+    },
+    {
+      "above": 1000000000,
+      "rate": 0.15
+    },
+    {
+      "above": 2000000000,
+      "rate": 0.25
+    }
+  ],
+  "deductions": {
+    "employerNps": {
+      "pctOfBasicDa": 0.14,
+      "ruleId": "DED-80CCD2"
+    },
+    "allowed": [
+      "employerNps"
+    ]
+  },
+  "exemptions": {
+    "hra": false,
+    "professionalTax": false,
+    "houseProperty": {
+      "selfOccupiedInterest": false,
+      "lossSetOffOtherHeads": false
+    }
+  },
+  "refs": {
+    "regime": {
+      "ita1961": "115BAC",
+      "ita2025": "202"
+    }
+  },
+  "buybackTreatment": "deemed_dividend",
+  "familyPensionDeduction": {
+    "fraction": 0.3333333333333333,
+    "cap": 2500000
+  },
+  "professionalTaxCap": 250000
+}

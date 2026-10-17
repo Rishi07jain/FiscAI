@@ -1,0 +1,21 @@
+{
+  "name": "fiscai",
+  "private": true,
+  "version": "2.0.0",
+  "description": "FiscAI – personal tax co-pilot for Indian taxpayers (MERN)",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @fiscai/api --filter @fiscai/web dev",
+    "dev:worker": "pnpm --filter @fiscai/worker dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "seed": "pnpm --filter @fiscai/api seed"
+  },
+  "packageManager": "pnpm@10.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  }
+}

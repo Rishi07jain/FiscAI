@@ -1,0 +1,606 @@
+[
+  {
+    "ruleId": "REGIME-NEW",
+    "title": "New tax regime (default)",
+    "refs": {
+      "ita1961": "115BAC",
+      "ita2025": "202"
+    },
+    "status": "final",
+    "sourceUrl": "https://www.caclubindia.com",
+    "tags": [
+      "regime",
+      "slab"
+    ],
+    "body": "The new regime is the default for individuals. Slabs for Tax Year 2026-27: nil up to Rs 4 lakh, 5% to 8 lakh, 10% to 12 lakh, 15% to 16 lakh, 20% to 20 lakh, 25% to 24 lakh, 30% above. Most deductions (80C, 80D, HRA, home-loan interest on a self-occupied house) are not allowed; the standard deduction (Rs 75,000) and employer NPS contribution (up to 14% of basic + DA) are allowed. Salaried taxpayers can switch regimes every year; taxpayers with business income (including F&O) can switch back only once."
+  },
+  {
+    "ruleId": "REGIME-OLD",
+    "title": "Old tax regime",
+    "refs": {
+      "ita1961": "Sec 2/Part I Sch I",
+      "ita2025": "Sch / opt-out of 202"
+    },
+    "status": "final",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "regime",
+      "slab"
+    ],
+    "body": "Old regime slabs (below 60): nil to Rs 2.5 lakh, 5% to 5 lakh, 20% to 10 lakh, 30% above. Basic exemption is Rs 3 lakh for seniors (60-79) and Rs 5 lakh for super-seniors (80+). Allows HRA, 80C (Rs 1.5 lakh), 80CCD(1B) (Rs 50,000), 80D, 80E, home-loan interest (Rs 2 lakh self-occupied) and a Rs 50,000 standard deduction. A salaried taxpayer typically needs roughly Rs 4-8.5 lakh of deductions for the old regime to win."
+  },
+  {
+    "ruleId": "STD-DED",
+    "title": "Standard deduction on salary",
+    "refs": {
+      "ita1961": "16(ia)",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "salary"
+    ],
+    "body": "Salaried employees and pensioners get a flat standard deduction of Rs 75,000 in the new regime and Rs 50,000 in the old regime, capped at the salary amount."
+  },
+  {
+    "ruleId": "REBATE-87A",
+    "title": "Rebate for resident individuals",
+    "refs": {
+      "ita1961": "87A",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.caclubindia.com",
+    "tags": [
+      "rebate"
+    ],
+    "body": "New regime: a resident individual with total income up to Rs 12 lakh gets a rebate up to Rs 60,000, so salary up to Rs 12.75 lakh pays zero tax. Marginal relief applies just above Rs 12 lakh: tax on normal income cannot exceed the income above Rs 12 lakh (the relief zone ends near Rs 12.71 lakh). The rebate does not apply to special-rate income such as capital gains under 111A/112/112A or VDA. Old regime: rebate up to Rs 12,500 for total income up to Rs 5 lakh, no marginal relief."
+  },
+  {
+    "ruleId": "SURCHARGE",
+    "title": "Surcharge and cess",
+    "refs": {
+      "ita1961": "Finance Act Part I",
+      "ita2025": "Finance Act"
+    },
+    "status": "final",
+    "sourceUrl": "https://cleartax.in",
+    "tags": [
+      "surcharge"
+    ],
+    "body": "Surcharge on income tax: 10% above Rs 50 lakh, 15% above Rs 1 crore, 25% above Rs 2 crore (new regime cap 25%; old regime 37% above Rs 5 crore). Surcharge on capital gains under 111A, 112 and 112A and on dividends is capped at 15%. Marginal relief ensures tax plus surcharge does not rise by more than the income above each threshold. Health and education cess of 4% applies on tax plus surcharge."
+  },
+  {
+    "ruleId": "HRA",
+    "title": "House Rent Allowance exemption",
+    "refs": {
+      "ita1961": "10(13A)",
+      "ita2025": "TBC"
+    },
+    "status": "draft-rules",
+    "sourceUrl": "https://cleartax.in",
+    "tags": [
+      "salary",
+      "hra",
+      "old"
+    ],
+    "body": "Old regime only. Exempt HRA is the least of: (1) actual HRA received, (2) rent paid minus 10% of salary (basic + DA), (3) 50% of salary in a metro or 40% elsewhere. From Tax Year 2026-27 the Income-tax Rules, 2026 add Bengaluru, Hyderabad, Pune and Ahmedabad to the 50% list (eight metros). Claims require the landlord's relationship and PAN if rent exceeds Rs 1 lakh a year."
+  },
+  {
+    "ruleId": "PROF-TAX",
+    "title": "Professional tax",
+    "refs": {
+      "ita1961": "16(iii)",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "salary",
+      "old"
+    ],
+    "body": "Professional tax paid (up to Rs 2,500) is deductible from salary in the old regime only."
+  },
+  {
+    "ruleId": "DED-80C",
+    "title": "Investments: PPF, ELSS, EPF, life cover, home-loan principal",
+    "refs": {
+      "ita1961": "80C",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://basunivesh.com",
+    "tags": [
+      "deduction",
+      "old"
+    ],
+    "body": "Old regime only. Up to Rs 1.5 lakh a year for PPF, ELSS, EPF (employee share), life insurance premium, tuition fees, Sukanya Samriddhi, 5-year tax-saving FDs, NSC and home-loan principal repayment. No benefit in the new regime."
+  },
+  {
+    "ruleId": "DED-80CCD1B",
+    "title": "Own NPS contribution (extra)",
+    "refs": {
+      "ita1961": "80CCD(1B)",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://basunivesh.com",
+    "tags": [
+      "deduction",
+      "old",
+      "nps"
+    ],
+    "body": "Old regime only. An additional Rs 50,000 for your own NPS Tier-I contribution, over and above the Rs 1.5 lakh 80C limit."
+  },
+  {
+    "ruleId": "DED-80CCD2",
+    "title": "Employer NPS contribution",
+    "refs": {
+      "ita1961": "80CCD(2)",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://basunivesh.com",
+    "tags": [
+      "deduction",
+      "new",
+      "old",
+      "nps"
+    ],
+    "body": "Allowed in both regimes. Employer contribution to NPS is deductible up to 14% of basic + DA in the new regime and 10% in the old regime (private employers). Restructuring CTC to route part of salary into employer NPS is the main salary-structure lever that works in the new regime."
+  },
+  {
+    "ruleId": "DED-80D",
+    "title": "Health insurance premium",
+    "refs": {
+      "ita1961": "80D",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://basunivesh.com",
+    "tags": [
+      "deduction",
+      "old",
+      "health"
+    ],
+    "body": "Old regime only. Self, spouse and children: up to Rs 25,000 (Rs 50,000 if you are 60+). Parents: an additional Rs 25,000 (Rs 50,000 if a parent is 60+). Preventive health check-ups up to Rs 5,000 are included within these limits. No benefit in the new regime."
+  },
+  {
+    "ruleId": "DED-80E",
+    "title": "Education loan interest",
+    "refs": {
+      "ita1961": "80E",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://basunivesh.com",
+    "tags": [
+      "deduction",
+      "old"
+    ],
+    "body": "Old regime only. Interest on a loan for higher education of self, spouse or children is fully deductible with no cap, for up to 8 years from the year repayment starts."
+  },
+  {
+    "ruleId": "DED-80G",
+    "title": "Donations",
+    "refs": {
+      "ita1961": "80G",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "deduction",
+      "old"
+    ],
+    "body": "Old regime only. Donations to approved funds and charities are deductible at 50% or 100%, with or without a qualifying limit depending on the institution. FiscAI takes the eligible amount you enter."
+  },
+  {
+    "ruleId": "DED-80TTA",
+    "title": "Savings account interest",
+    "refs": {
+      "ita1961": "80TTA / 80TTB",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "deduction",
+      "old",
+      "interest"
+    ],
+    "body": "Old regime only. Non-seniors can deduct savings-account interest up to Rs 10,000 (80TTA). Seniors can deduct interest on savings and deposits up to Rs 50,000 (80TTB) instead."
+  },
+  {
+    "ruleId": "HP-24B",
+    "title": "Home loan interest",
+    "refs": {
+      "ita1961": "24(b)",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "house",
+      "old"
+    ],
+    "body": "Self-occupied house: interest up to Rs 2 lakh a year is deductible in the old regime only. Let-out house: net annual value less 30% standard deduction less full interest; a resulting loss can be set off against other heads up to Rs 2 lakh in the old regime, with the balance carried forward 8 years. In the new regime, house-property loss cannot be set off against other heads."
+  },
+  {
+    "ruleId": "CG-EQ-STCG",
+    "title": "Short-term gains on listed equity",
+    "refs": {
+      "ita1961": "111A",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://qwikfilings.com",
+    "tags": [
+      "capital-gains",
+      "equity"
+    ],
+    "body": "Listed shares and equity mutual funds (STT paid) held 12 months or less: short-term gains taxed at 20% (for transfers on or after 23 July 2024). Not eligible for 87A rebate in the new regime. Residents can use unused basic exemption against these gains."
+  },
+  {
+    "ruleId": "CG-EQ-LTCG",
+    "title": "Long-term gains on listed equity",
+    "refs": {
+      "ita1961": "112A",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://qwikfilings.com",
+    "tags": [
+      "capital-gains",
+      "equity",
+      "harvest"
+    ],
+    "body": "Listed shares and equity mutual funds held more than 12 months: gains above Rs 1.25 lakh a year are taxed at 12.5% without indexation. The Rs 1.25 lakh exemption resets every year, which is why booking long-term gains up to it (LTCG harvesting) can lower lifetime tax."
+  },
+  {
+    "ruleId": "CG-OTHER-LTCG",
+    "title": "Long-term gains on other assets",
+    "refs": {
+      "ita1961": "112",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://qwikfilings.com",
+    "tags": [
+      "capital-gains"
+    ],
+    "body": "Property, land, unlisted shares, gold and other assets held more than 24 months (listed bonds and SGBs: 12 months): long-term gains taxed at 12.5% without indexation. Short-term gains on these assets are taxed at slab rates. Gains on debt mutual funds bought after 1 April 2023 are always short-term (slab rate)."
+  },
+  {
+    "ruleId": "CG-PROP-INDEX",
+    "title": "Property bought before 23 July 2024",
+    "refs": {
+      "ita1961": "112 proviso",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://cleartax.in",
+    "tags": [
+      "capital-gains",
+      "property"
+    ],
+    "body": "For land or buildings acquired before 23 July 2024, a resident individual or HUF pays the lower of: 12.5% on the gain without indexation, or 20% on the gain with indexation (Cost Inflation Index). FiscAI computes both and picks the lower."
+  },
+  {
+    "ruleId": "CG-LOSS-SETOFF",
+    "title": "Capital loss set-off",
+    "refs": {
+      "ita1961": "70, 74",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://qwikfilings.com",
+    "tags": [
+      "capital-gains",
+      "loss",
+      "harvest"
+    ],
+    "body": "Short-term capital losses can be set off against both short-term and long-term gains; long-term losses only against long-term gains. Unabsorbed capital losses carry forward 8 years, but only if the return is filed by the due date. Capital losses cannot be set off against salary or other heads."
+  },
+  {
+    "ruleId": "CG-54",
+    "title": "Sell a house, buy a house",
+    "refs": {
+      "ita1961": "54",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "capital-gains",
+      "property",
+      "exemption"
+    ],
+    "body": "Long-term gain on sale of a residential house is exempt to the extent invested in one residential house in India: bought within 1 year before or 2 years after the sale, or constructed within 3 years. Exemption capped at Rs 10 crore. Amounts not invested before the return due date must be deposited in the Capital Gains Account Scheme (CGAS)."
+  },
+  {
+    "ruleId": "CG-54F",
+    "title": "Sell any other asset, buy a house",
+    "refs": {
+      "ita1961": "54F",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "capital-gains",
+      "exemption"
+    ],
+    "body": "Long-term gain on any asset other than a house is exempt if the whole net sale consideration is invested in a residential house (proportionate exemption if partly invested). Same time limits as Section 54, capped at Rs 10 crore. Not available if you own more than one other house on the date of transfer."
+  },
+  {
+    "ruleId": "CG-54EC",
+    "title": "Capital gains bonds",
+    "refs": {
+      "ita1961": "54EC",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "capital-gains",
+      "property",
+      "exemption",
+      "deadline"
+    ],
+    "body": "Long-term gains on land or buildings are exempt up to Rs 50 lakh if invested in specified bonds (NHAI, REC, PFC, IRFC) within 6 months of the transfer. Bonds have a 5-year lock-in."
+  },
+  {
+    "ruleId": "CGAS",
+    "title": "Capital Gains Account Scheme",
+    "refs": {
+      "ita1961": "54(2)",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "capital-gains",
+      "deadline"
+    ],
+    "body": "If the gain is not reinvested before the return due date, deposit the unused amount in a CGAS account at a designated bank before that date to keep the 54/54F exemption. Unused deposits become taxable when the investment period ends."
+  },
+  {
+    "ruleId": "CG-SGB",
+    "title": "Sovereign Gold Bond redemption",
+    "refs": {
+      "ita1961": "47(viic)",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://cleartax.in",
+    "tags": [
+      "capital-gains",
+      "gold",
+      "budget2026"
+    ],
+    "body": "From Tax Year 2026-27, the exemption on SGB redemption applies only if the bond was bought at original issue from RBI and held to maturity. Bonds bought on the secondary market (exchange) are taxable on redemption: long-term (held more than 12 months) at 12.5%, otherwise at slab rate. Sale on the exchange is always taxable."
+  },
+  {
+    "ruleId": "CG-BUYBACK",
+    "title": "Share buyback proceeds",
+    "refs": {
+      "ita1961": "46A",
+      "ita2025": "TBC"
+    },
+    "status": "draft-rules",
+    "sourceUrl": "https://cleartax.in",
+    "tags": [
+      "capital-gains",
+      "budget2026"
+    ],
+    "body": "From 1 April 2026, buyback proceeds are taxed in the shareholder's hands as capital gains (sale value minus cost), not as a deemed dividend. Holding over 12 months is long-term. Promoters face a higher effective rate (about 30% for non-corporate promoters). FiscAI applies listed-equity rates for non-promoters and flags promoter cases."
+  },
+  {
+    "ruleId": "DIV-INT-DED",
+    "title": "Interest deduction against dividends removed",
+    "refs": {
+      "ita1961": "57",
+      "ita2025": "TBC"
+    },
+    "status": "draft-rules",
+    "sourceUrl": "https://cleartax.in",
+    "tags": [
+      "dividend",
+      "budget2026"
+    ],
+    "body": "From Tax Year 2026-27, the deduction of interest expense (up to 20%) against dividend and mutual-fund income is removed. Dividends are taxed in full at slab rates."
+  },
+  {
+    "ruleId": "FNO-BUSINESS",
+    "title": "F&O trading income",
+    "refs": {
+      "ita1961": "28, 43(5)",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://taxguru.in",
+    "tags": [
+      "fno",
+      "business"
+    ],
+    "body": "Futures and options trading is non-speculative business income taxed at slab rates and reported in ITR-3 (due 31 August for non-audit cases from AY 2026-27). Losses can be set off against any income except salary and carried forward 8 years against business income, only if the return is filed on time. Turnover above Rs 10 crore (with 95% digital transactions) triggers a tax audit."
+  },
+  {
+    "ruleId": "FNO-STT-2026",
+    "title": "STT increase on F&O (Budget 2026)",
+    "refs": {
+      "ita1961": "Finance (No.2) Act 2004",
+      "ita2025": "Finance Act 2026"
+    },
+    "status": "final",
+    "sourceUrl": "https://cleartax.in",
+    "tags": [
+      "fno",
+      "budget2026"
+    ],
+    "body": "From 1 April 2026, STT on futures rises from 0.02% to 0.05% of the sell-side value, on options premium from 0.10% to 0.15%, and on options exercise to 0.15%."
+  },
+  {
+    "ruleId": "SPEC-INTRADAY",
+    "title": "Intraday equity (speculative)",
+    "refs": {
+      "ita1961": "43(5), 73",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://taxguru.in",
+    "tags": [
+      "business",
+      "speculative"
+    ],
+    "body": "Intraday equity trading is speculative business income at slab rates. Speculative losses can be set off only against speculative income and carried forward 4 years."
+  },
+  {
+    "ruleId": "VDA-30",
+    "title": "Crypto and virtual digital assets",
+    "refs": {
+      "ita1961": "115BBH, 194S",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://koinx.com",
+    "tags": [
+      "vda",
+      "crypto"
+    ],
+    "body": "Gains on crypto and other virtual digital assets are taxed at a flat 30% plus cess, with no deduction except cost of acquisition. Losses cannot be set off against any income, including other VDA gains, and cannot be carried forward. 1% TDS is deducted on transfers above the threshold and is creditable against your tax."
+  },
+  {
+    "ruleId": "ADV-TAX",
+    "title": "Advance tax",
+    "refs": {
+      "ita1961": "208, 211",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://qwikfilings.com",
+    "tags": [
+      "advance-tax",
+      "deadline"
+    ],
+    "body": "Advance tax is due when tax after TDS for the year is Rs 10,000 or more: 15% by 15 June, 45% by 15 September, 75% by 15 December and 100% by 15 March. Capital gains arising after an instalment date can be paid in the remaining instalments without interest for the missed one. Resident seniors with no business income are exempt."
+  },
+  {
+    "ruleId": "ADV-234B",
+    "title": "Interest for not paying advance tax",
+    "refs": {
+      "ita1961": "234B",
+      "ita2025": "424"
+    },
+    "status": "final",
+    "sourceUrl": "https://qwikfilings.com",
+    "tags": [
+      "advance-tax",
+      "interest"
+    ],
+    "body": "If advance tax paid is less than 90% of assessed tax, simple interest of 1% a month is charged on the shortfall from 1 April after the Tax Year until the tax is paid."
+  },
+  {
+    "ruleId": "ADV-234C",
+    "title": "Interest for deferring instalments",
+    "refs": {
+      "ita1961": "234C",
+      "ita2025": "425"
+    },
+    "status": "final",
+    "sourceUrl": "https://qwikfilings.com",
+    "tags": [
+      "advance-tax",
+      "interest"
+    ],
+    "body": "If an instalment falls short (with a tolerance of 12% and 36% for the June and September instalments), 1% a month is charged for 3 months on the shortfall of each of the first three instalments, and for 1 month on the March shortfall."
+  },
+  {
+    "ruleId": "ITR-DUE",
+    "title": "Return due dates and revised returns",
+    "refs": {
+      "ita1961": "139",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://taxguru.in",
+    "tags": [
+      "deadline",
+      "itr"
+    ],
+    "body": "Due dates: 31 July for ITR-1 and ITR-2; 31 August for non-audit ITR-3 and ITR-4 (from AY 2026-27); 31 October for audit cases. A revised return is allowed until 31 March, with a fee if filed after 31 December. Losses (other than house property) can be carried forward only if the original return is filed by the due date."
+  },
+  {
+    "ruleId": "ITR-FORMS",
+    "title": "Which ITR form",
+    "refs": {
+      "ita1961": "Rule 12",
+      "ita2025": "TBC"
+    },
+    "status": "draft-rules",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "itr"
+    ],
+    "body": "ITR-1: resident, total income up to Rs 50 lakh from salary, one house property, other sources, and LTCG under 112A up to Rs 1.25 lakh, with no losses to carry forward. ITR-2: adds capital gains, more than one house, foreign assets, or income above Rs 50 lakh, but no business income. ITR-3: business or professional income, including F&O and intraday. ITR-4: presumptive income (44AD/44ADA/44AE) for residents up to Rs 50 lakh."
+  },
+  {
+    "ruleId": "CLUBBING",
+    "title": "Clubbing of income on gifts",
+    "refs": {
+      "ita1961": "64",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "household"
+    ],
+    "body": "Income from money or assets gifted to a spouse or daughter-in-law (without adequate consideration) is added to the giver's income. Income of a minor child is clubbed with the parent who earns more (Rs 1,500 exemption per child). Gifts to parents are not clubbed, so investing through a parent in a lower slab can reduce family tax."
+  },
+  {
+    "ruleId": "SCHEMES",
+    "title": "Small savings and tax-saving schemes",
+    "refs": {
+      "ita1961": "80C, 80CCD",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.indiapost.gov.in",
+    "tags": [
+      "deduction",
+      "schemes"
+    ],
+    "body": "PPF (15-year, EEE), ELSS (3-year lock-in, shortest among 80C options), NPS (Tier-I, extra Rs 50,000 under 80CCD(1B)), Sukanya Samriddhi (girl child below 10, EEE) and Senior Citizens Savings Scheme (60+, 80C eligible) all qualify only in the old regime."
+  },
+  {
+    "ruleId": "AIS",
+    "title": "Annual Information Statement",
+    "refs": {
+      "ita1961": "285BB",
+      "ita2025": "TBC"
+    },
+    "status": "final-new-section-tbc",
+    "sourceUrl": "https://www.incometax.gov.in",
+    "tags": [
+      "ais"
+    ],
+    "body": "The AIS lists interest, dividends, securities sales, TDS/TCS and high-value transactions reported about you. Mismatches between your return and the AIS (such as unreported savings or FD interest) are a common trigger for notices. Download the AIS JSON from the e-filing portal and reconcile it before filing."
+  },
+  {
+    "ruleId": "DISCLAIMER",
+    "title": "About FiscAI estimates",
+    "refs": {
+      "ita1961": "-",
+      "ita2025": "-"
+    },
+    "status": "final",
+    "sourceUrl": "",
+    "tags": [
+      "meta"
+    ],
+    "body": "FiscAI provides tax estimates and explanations for information only. It is not a chartered accountant and does not file returns. Verify important decisions with a qualified professional."
+  }
+]
