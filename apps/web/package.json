@@ -1,0 +1,33 @@
+{
+  "name": "@fiscai/web",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@fiscai/shared-types": "workspace:*",
+    "@fiscai/tax-engine": "workspace:*",
+    "@tanstack/react-query": "^5",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.59.0",
+    "motion": "^14.3.0",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-router-dom": "^7",
+    "recharts": "^2.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tailwindcss": "^4",
+    "typescript": "^5.8",
+    "vite": "^6"
+  }
+}
