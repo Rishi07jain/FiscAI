@@ -1,0 +1,17 @@
+{
+  "name": "@fiscai/worker",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file-if-exists=../api/.env src/worker.ts",
+    "start": "tsx --env-file-if-exists=../api/.env src/worker.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@fiscai/api": "workspace:*",
+    "bullmq": "^6.3.16",
+    "ioredis": "^6.0.0"
+  },
+  "devDependencies": { "tsx": "^4.20.0", "@types/node": "^24.0.0" }
+}
